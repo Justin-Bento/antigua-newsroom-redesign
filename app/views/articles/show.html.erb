@@ -1,0 +1,13 @@
+<div class="max-w-[80ch] mx-auto min-h-screen p-4 lg:p-0 py-12 lg:py-16">
+    <nav class="text-sm">
+        <a href="/articles">Home</a>
+        <span>/</span>
+        <a href="/articles">Local News</a>
+    </nav>
+    <div class="">
+        <article class="flex flex-col gap-4">
+        <h1 class="scroll-m-20 text-4xl font-extrabold tracking-wide [text-wrap:balance] lg:text-5xl"><%= @article.title %></h1>
+        <p class="leading-7 text-lg opacity-60 [text-wrap:balance]"><%= @article.body %></p>
+        </article>
+    </div>
+</div>
